@@ -26,7 +26,10 @@ body {
     display: flex;
 } */
 
-
+#enlaceMas {
+    text-decoration: none;
+    
+}
 
 
 .imagenes {
@@ -43,7 +46,7 @@ body {
 }
 
 .encabezado {
-    /* background-image: url(./imagenes/templatemo_more.jpg); */
+   /*background-image: url(./imagenes/templatemo_more.jpg);*/
     background-color: rgb(205, 237, 255);
     background-size: 100% 100px;
     background-position: center;
@@ -123,3 +126,4 @@ body {
     padding: 5px 20px;
     color: black;
 }
+
