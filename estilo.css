@@ -1,0 +1,125 @@
+/* {
+    margin: 20;
+    padding: 20;
+} */
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    text-justify: distribute;
+    text-align: start;
+    background-color: beige;
+}
+
+/* #Pagina {
+    display: flex;
+    margin: 10px auto;
+} */
+
+/* .conteiner {
+    display: flex;
+    text-align: start;
+    flex-direction: column-reverse;
+} */
+
+/* body.conteiner {
+    display: flex;
+} */
+
+
+
+
+.imagenes {
+    width: 100%;
+    height: 180px;
+    padding: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.detalle {
+    text-align: justify;
+    font-size: small;
+}
+
+.encabezado {
+    /* background-image: url(./imagenes/templatemo_more.jpg); */
+    background-color: rgb(205, 237, 255);
+    background-size: 100% 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.texto-encabezado {
+    font-size: 10px;
+    margin: 5px 0 0 0;
+}
+
+.titulo-encabezado {
+    font-size: 13px;
+    margin: 15px 0 0 0;
+}
+
+.contenido-encabezado {
+    margin: 10px 0 0 10px;
+    padding: 0;
+}
+
+.detalleViñeta {    
+    background-image: url(./imagenes/templatemo_testimonial.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: auto;
+    padding: 20px 20px;
+    text-align: center;
+    text-align: justify;
+    margin: 0;
+}
+
+.flechita {
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid #dddddd23;
+    box-shadow: 5px 5px rgb(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.ecotree{
+    background-color: rgba(233, 231, 231, 0.664);
+    border-radius: 10px
+}
+
+.jardin{
+    border-radius: 10px 0 0 10px;
+    height: 250px;
+    width: 450px;
+    justify-items: center;
+}
+
+.list-group-item {
+    background-color: rgba(233, 231, 231, 0.664);
+    height: 50px;
+}
+
+.textoEncabezado {
+    font-size: 12px;
+}
+
+.menu {
+    height: 250px;
+    border-radius: 10px;
+}
+
+.btn-mas {
+    background-color: rgb(205, 237, 255);
+    text-decoration: none;
+    padding: 5px 20px;
+    color: black;
+}
