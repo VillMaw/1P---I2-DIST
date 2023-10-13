@@ -1,6 +1,11 @@
 * {
-    margin: 20;
-    padding: 20;
+    margin: 0;
+    padding: 0;
+}
+
+#Principal{
+    margin: 10px auto;
+    max-width: 1200px;
 }
 
 body {
@@ -13,10 +18,29 @@ body {
 
 #Pagina {
     display: flex;
-    border: 2px solid red;
+   
     margin: 10px auto;
     max-width: 1200px;
-   
+    text-align: start;
+    background-color: rgba(233, 231, 231, 0.664);
+}
+
+#Pagina img{
+    margin: 5px 5px;  
+}
+
+.jardin img{
+    width: 200px;
+    height: 200px;
+}
+
+.formulario{
+    text-align: start;
+}
+
+.galeria img{
+    background-color: white;
+    padding: 5px 5px;
 }
 
 .conteiner {
@@ -25,18 +49,19 @@ body {
     flex-direction: column-reverse;
 }
 
-body.conteiner {
+/*body.conteiner {
     display: flex;
-}
+}*/
 
-.section div img {
+/*.section div img {
     width: 100%;
     height: auto;
     /*padding: 10%;
     border: 1px solid #ddd;
     border-radius: 4px;
-    padding: 5px;*/
+    padding: 5px;
 }
+*/
 
 .detalle {
     text-align: justify;
@@ -55,6 +80,19 @@ body.conteiner {
     text-decoration: none;
     
 }
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+footer {
+    height: 50px;
+    background-color: gray;
+    margin: 5% 0;
+}
+
+
 
 @media all and(max-width){
     #Pagina{}
