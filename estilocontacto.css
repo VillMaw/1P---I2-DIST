@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+#Principal{
+    margin: 10px auto;
+    max-width: 1200px;
+    border-radius: 10px rgb(230, 0, 0);
+}
+
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14px;
@@ -21,18 +27,21 @@ body {
 }
 
 #Pagina img{
+    margin: 5px 5px;  
+}
+
+.jardin img{
     width: 200px;
     height: 200px;
-    margin: 5px 5px;
-    padding: 0;
 }
 
 .formulario{
     text-align: start;
 }
 
-.galeria {
+.galeria img{
     background-color: white;
+    padding: 5px 5px;
 }
 
 .conteiner {
@@ -41,9 +50,9 @@ body {
     flex-direction: column-reverse;
 }
 
-body.conteiner {
+/*body.conteiner {
     display: flex;
-}
+}*/
 
 /*.section div img {
     width: 100%;
@@ -73,16 +82,18 @@ body.conteiner {
     
 }
 
+ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
 footer {
     height: 50px;
     background-color: gray;
     margin: 5% 0;
 }
 
-ul li {
-    text-decoration: none;
-    list-style: none;
-}
+
 
 @media all and(max-width){
     #Pagina{}
