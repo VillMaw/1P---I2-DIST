@@ -71,15 +71,18 @@ body {
 
 .detalleViñeta {    
     background-image: url(./imagenes/templatemo_testimonial.png);
-    background-size: contain;
+    background-size: 300px;
     background-repeat: no-repeat;
     background-position: center;
-    height: 200px;
-    width: auto;
-    padding: 20px 20px;
+    padding: 0px 0px;
     text-align: center;
     text-align: justify;
     margin: 0;
+
+}
+
+.detalleViñeta img{
+
 }
 
 .flechita {
