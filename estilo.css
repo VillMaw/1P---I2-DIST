@@ -1,7 +1,7 @@
-/* {
-    margin: 20;
-    padding: 20;
-} */
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -31,6 +31,14 @@ body {
     
 }
 
+#ecotree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#arbol {
+    height: 75%;
+}
 
 .imagenes {
     width: 100%;
@@ -99,26 +107,31 @@ body {
     border-radius: 10px
 }
 
+#jaridn {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    object-fit: contain;
+}
 .jardin{
     border-radius: 10px 0 0 10px;
-    height: 250px;
-    width: 450px;
-    justify-items: center;
+    
 }
 
+li {
+    padding: 0;
+}
 .list-group-item {
     background-color: rgba(233, 231, 231, 0.664);
-    height: 50px;
+    padding: 0;
+    border: 0;
 }
 
 .textoEncabezado {
     font-size: 12px;
 }
 
-.menu {
-    height: 250px;
-    border-radius: 10px;
-}
+
 
 .btn-mas {
     background-color: rgb(205, 237, 255);
