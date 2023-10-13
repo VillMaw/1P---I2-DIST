@@ -6,7 +6,6 @@
 #Principal{
     margin: 10px auto;
     max-width: 1200px;
-    border-radius: 10px rgb(230, 0, 0);
 }
 
 body {
@@ -19,7 +18,7 @@ body {
 
 #Pagina {
     display: flex;
-    border: 2px solid red;
+   
     margin: 10px auto;
     max-width: 1200px;
     text-align: start;
