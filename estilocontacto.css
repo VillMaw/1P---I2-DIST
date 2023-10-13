@@ -1,6 +1,6 @@
 * {
-    margin: 20;
-    padding: 20;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -16,7 +16,23 @@ body {
     border: 2px solid red;
     margin: 10px auto;
     max-width: 1200px;
-   
+    text-align: start;
+    background-color: rgba(233, 231, 231, 0.664);
+}
+
+#Pagina img{
+    width: 200px;
+    height: 200px;
+    margin: 5px 5px;
+    padding: 0;
+}
+
+.formulario{
+    text-align: start;
+}
+
+.galeria {
+    background-color: white;
 }
 
 .conteiner {
@@ -29,14 +45,15 @@ body.conteiner {
     display: flex;
 }
 
-.section div img {
+/*.section div img {
     width: 100%;
     height: auto;
     /*padding: 10%;
     border: 1px solid #ddd;
     border-radius: 4px;
-    padding: 5px;*/
+    padding: 5px;
 }
+*/
 
 .detalle {
     text-align: justify;
@@ -54,6 +71,17 @@ body.conteiner {
 .nuestroServicio {
     text-decoration: none;
     
+}
+
+footer {
+    height: 50px;
+    background-color: gray;
+    margin: 5% 0;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
 }
 
 @media all and(max-width){
