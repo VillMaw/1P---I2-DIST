@@ -1,7 +1,11 @@
-/* {
-    margin: 20;
-    padding: 20;
-} */
+:root{
+    --bs-border-width: 0px;
+    --bs-border-color-translucent: none;
+}
+
+*{ margin: 0px;
+padding: 0px;
+}
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -52,6 +56,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
+    
 }
 
 .texto-encabezado {
@@ -69,20 +74,32 @@ body {
     padding: 0;
 }
 
-.detalleViñeta {    
-    background-image: url(./imagenes/templatemo_testimonial.png);
-    background-size: 300px;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 0px 0px;
+
+.ideas p{    
+    padding: 1px;
     text-align: center;
     text-align: justify;
-    margin: 0;
-
+    z-index: 2;
+    position: absolute;
+    align-items: center
+    
 }
 
-.detalleViñeta img{
+.card-text {
+    font-size: small;
+    border: 0;
+}
 
+.ideas img {
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+    align-items: center; 
+}
+
+.card{
+    --bs-card-border-width: var(--bs-card-border-width);
+    border: 0px;
 }
 
 .flechita {
@@ -130,3 +147,6 @@ body {
     color: black;
 }
 
+@media all and(max-width){
+    #Pagina{}
+}
