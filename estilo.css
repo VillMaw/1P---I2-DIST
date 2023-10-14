@@ -156,6 +156,16 @@ li {
     color: black;
 }
 
-@media all and(max-width){
-    #Pagina{}
+@media (max-width: 960px){
+
+}
+
+@media (max-width: 768px){
+
+}
+
+@media (max-width: 320px){
+    .header, .conten-section, .contenedor-grid{
+        flex-direction: column;
+    }
 }

@@ -102,12 +102,18 @@ body {
 }
 
 .formulario{
+    display: flex;
+    flex-direction: column;
     padding: 0;
     text-align: start;
     border: 2px solid greenyellow;
     /*margin-left: 235px;
     margin-right: 0px;*/
     align-items:center;
+}
+
+input, textarea {
+    width: 80%; 
 }
 
 /*.galeria img{
@@ -207,5 +213,26 @@ footer {
 
 
 
+/* Estilos para pantallas de 320px o menos */
+@media (max-width: 320px) {
+  /* Agrega tus estilos específicos para pantallas de 320px o menos aquí */
+}
+
+/* Estilos para pantallas de 321px a 768px */
+@media (min-width: 321px) and (max-width: 768px) {
+  /* Agrega tus estilos específicos para pantallas de 321px a 768px aquí */
+}
+
+/* Estilos para pantallas de 769px a 960px */
+@media (min-width: 769px) and (max-width: 960px) {
+  /* Agrega tus estilos específicos para pantallas de 769px a 960px aquí */
+}
+
+/* Estilos para pantallas más grandes de 960px */
+@media (min-width: 961px) {
+  /* Agrega tus estilos específicos para pantallas de 961px o más aquí */
+}
+
+/* Agrega cualquier otro estilo general que desees aquí */
 
 
