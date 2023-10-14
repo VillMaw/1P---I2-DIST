@@ -10,160 +10,160 @@
   <title>Contacto</title>
 </head>
 
-<section id="Principal">
-  <body>  
-    <div id="Main">
-      <section class="container mt-3 mb-3 p-0 ">
-        <div class="row m-auto encabezado">
-          <div class="col-12 col-md-6 col-lg-2 d-flex align-items-center ecotree">
-            <div class="row d-flex justify-content-center align-items-center ">
-              <img class="col-8" src="imagenes/templatemo_logo.png" alt="Eco Tree" />
-              <h2 class="col-8 fs-5 m-3  text-wrap">Eco Tree</h2>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-7 Jardin">
-            <img class= "Jardin" src="imagenes/decorarja.jpg" alt="Jardin" />
-          </div>
-          <div class="list-group col-12 col-md-6 col-lg-3 menu">
-            <ul class="men">
-              <li class="list-group-item bg-body-secondary">
-                <a class="dropdown-item" href="#"><img class="me-3" src="imagenes/home.png" alt="Inicio" />Inicio</a>
-              </li>
-              <li class="list-group-item bg-body-secondary">
-                <a class="dropdown-item" href="#"><img class="me-3" src="imagenes/my-account.png"
-                    alt="Nosotros" />Nosotros</a>
-              </li>
-              <li class="list-group-item bg-body-secondary">
-                <a class="dropdown-item" href="#"><img class="me-3" src="imagenes/my-account.png"
-                    alt="Nosotros" />Galeria</a>
-              </li>
-              <li class="list-group-item bg-body-secondary">
-                <a class="dropdown-item" href="#"><img class="me-3" src="imagenes/special-offer.png"
-                    alt="Servicios" />Servicio</a>
-              </li>
-              <li class="list-group-item bg-body-secondary">
-                <a class="dropdown-item" href="./Contacto.html"><img class="me-3" src="imagenes/email.png" alt="Contacto" />
-                  Contacto</a>
-              </li>
-            </ul>
-          </div>
+<body class="container" id="Pagina">
+  <div id="Main">
+    <!-- Seccion encabezado -->
+    <section class="container">
+      <div class="encabezado">
+        <div class="col-12 col-md-6 col-lg-2 ecotree">          
+            <img src="./Imagenes/templatemo_logo.png" alt="Eco Tree" />
+            <h2>Eco Tree</h2>          
         </div>
-      </section>
-      <section class="bg-body-secondary" id="Formulario">
-        <div class="row m-auto">
-          <div class="col-12 col-md-6 col-lg-2 formulario">
-            <h1>Contacto</h1>
-            <h2>Envia tu mensaje</h2>
-            <h2>Formulario de Contacto</h2>
-            <form action="procesar_formulario.php" method="POST">
-              <p>Nombre:</p>
-              <label for="nombre"></label>
-              <input type="text" id="nombre" name="nombre" required><br><br>
-              <p>Email:</p>
-              <label for="correo"></label>
-              <input type="email" id="correo" name="correo" required><br><br>
-              <p>Asunto:</p>
-              <label for="asunto"></label>
-              <input type="text" id="asunto" name="asunto" required><br><br>
-              <p>Mensaje:</p>
-              <label for="mensaje"></label>
-              <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
-              <input type="submit" value="Enviar" class="boton">
-            </form>
-          </div>
-          <div class="col-12 col-md-6 col-lg-8">
-            <h3>Nuestros Trabajos, clientes contentos!</h3>
-            <div class="containergaleria">
-              <div class="row ">
-                <div class="col-6 d-flex">
-                  <img class="w-100" src="imagenes/1.jpg" alt="">
-                </div>
-                <div class="col-6 d-flex">
-                  <img class="w-100" src="imagenes/22.jpg" alt="">
-                </div>
-                <div class="col-6 d-flex ">
-                  <img class="w-100" src="imagenes/4.jpg" alt="">
-                </div>
-                <div class="col-6 d-flex">
-                  <img class="w-100" src="imagenes/5.jpg" alt="">
-                </div>
-                <div class="col-6 d-flex">
-                  <img class="w-100" src="imagenes/6.jpg" alt="">
-                </div>
-                <div class="col-6 d-flex">
-                  <img class="w-100" src="imagenes/7.jpg" alt="">
-                </div>
-              </div>
+        <div class="col-12 col-md-6 col-lg-5 jardin">
+          <img src="./Imagenes/decorarja.jpg" alt="Jardin" />
+        </div>
+        <div class="list-group col-12 col-md-6 col-lg-3 menu">
+          <a href="#">
+            <img src="./Imagenes/home.png" alt="Inicio"/> Inicio
+          </a>
+          <hr>
+          <a href="#">
+            <img src="./Imagenes/my-account.png" alt="Nosotros"/> Nosotros
+          </a>
+          <hr>
+          <a href="#">
+            <img src="./Imagenes/my-account.png" alt="Nosotros"/> Galeria
+          </a>
+          <hr>
+          <a href="#">
+            <img src="./Imagenes/special-offer.png"alt="Servicios"/> Servicio
+          </a>
+          <hr>
+          <a href="./Contacto.html">
+            <img src="./Imagenes/email.png" alt="Contacto"/> Contacto
+          </a>
+         </div>
+      </div>
+    </section>
 
+    <!-- Seccion contacto y nuestro trabajo -->
+    <section class="container bg-body-secondary" id="contrabajos">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3 formulario">
+          <h1>Contacto</h1>
+          <h2>Envia tu mensaje</h2>
+          <h2>Formulario de Contacto</h2>
+          <form action="procesar_formulario.php" method="POST">
+            <p>Nombre:</p>
+            <label for="nombre"></label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <p>Email:</p>
+            <label for="correo"></label>
+            <input type="email" id="correo" name="correo" required><br><br>
+            <p>Asunto:</p>
+            <label for="asunto"></label>
+            <input type="text" id="asunto" name="asunto" required><br><br>
+            <p>Mensaje:</p>
+            <label for="mensaje"></label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+            <input type="submit" value="Enviar" class="boton">
+          </form>
+        </div>
+        <div class="col-12 col-md-6 col-lg-9 p-0 contenedorgaleria">
+          <h3 class="pt-5 mt-3">Nuestros Trabajos, clientes contentos!</h3>
+          <div class="container galeria">
+            <div class="row text-center p-0">
+              <div class="col-6 d-flex">
+                <img class="img-fluid w-100" src="./Imagenes/1.jpg" alt="">
+              </div>
+              <div class="col-6 d-flex">
+                <img class="img-fluid w-100" src="./Imagenes/22.jpg" alt="">
+              </div>
+              <div class="col-6 d-flex ">
+                <img class="img-fluid w-100" src="./Imagenes/4.jpg" alt="">
+              </div>
+              <div class="col-6 d-flex">
+                <img class="img-fluid w-100" src="./Imagenes/5.jpg" alt="">
+              </div>
+              <div class="col-6 d-flex">
+                <img class="img-fluid w-100" src="./Imagenes/6.jpg" alt="">
+              </div>
+              <div class="col-6 d-flex">
+                <img class="img-fluid w-100" src="./Imagenes/7.jpg" alt="">
+              </div>
             </div>
           </div>
+          <a href="#">
+            <p>Ver mas jardines</p>
+          </a>
         </div>
-      </section>
-      <section class="container contacto">
-        <div class="row">
-          <div class="col-12 col-md-6 col-lg-4">
-            <h4>Nos puedes encontrar en: </h4>
-            <div class="row">
-              <div class="col-12 col-md-6">
-                <a class="dropdown-item py-2" href="#"><img class="me-3" src="imagenes/facebook.png"
-                    alt="Facebook" />Facebook</a>
-              </div>
-              <div class="col-12 col-md-6">
-                <a class="dropdown-item py-2" href="#"><img class="me-3" src="imagenes/twitter2.png"
-                    alt="Twitter" />Twitter</a>
-              </div>
-              <div class="col-12 col-md-6">
-                <a class="dropdown-item py-2" href="#"><img class="me-3" src="imagenes/youtube.png"
-                    alt="YouTube" />YouTube</a>
-              </div>
-              <a href="#">
-                <p>Ver mas jardines..</p>
-              </a>
+      </div>
+    </section>
+    <section class="container contacto">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <h4>Nos puedes encontrar en: </h4>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <a class="dropdown-item py-2" href="#"><img class="me-3" src="./Imagenes/facebook.png"
+                  alt="Facebook" />Facebook</a>
             </div>
+            <div class="col-12 col-md-6">
+              <a class="dropdown-item py-2" href="#"><img class="me-3" src="./Imagenes/twitter2.png"
+                  alt="Twitter" />Twitter</a>
+            </div>
+            <div class="col-12 col-md-6">
+              <a class="dropdown-item py-2" href="#"><img class="me-3" src="./Imagenes/youtube.png"
+                  alt="YouTube" />YouTube</a>
+            </div>
+            <a href="#">
+              <p>Ver mas jardines..</p>
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 nuestroServicio">
+          <h4>Nuestros Servicios</h4>
+          <ul>
+            <li>
+              <p>Jardineria general</p>
+            </li>
+            <li>
+              <p><img src="./Imagenes/hoja (1).png" alt="hoja">Paisajismo.</p>
+            </li>
+            <li>
+              <p><img src="./Imagenes/hoja (1).png" alt="hoja">Poda de arboles.</p>
+            </li>
+            <li>
+              <p><img src="./Imagenes/hoja (1).png" alt="hoja">Plantas frutales de estacion</p>
+            </li>
+            <li>
+              <p><img src="./Imagenes/hoja (1).png" alt="hoja">Huerta orgánica</p>
+            </li>
+            <li>
+              <p><img src="./Imagenes/hoja (1).png" alt="hoja">Y cualquier inquietud que tengas sobre tu sistema de
+                riego
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <h4>Nosotros</h4>
+          <p>
+            Somos una empresa cordobesa. Contamos con un
+            equipo de profesionales, con el fin de brindarles a
+            nuestros clientes, un producto de calidad y el
+            asesoramiento adecuado. Poseemos gran
+            variedad de servicio, puedes hacer tu consulta!
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
 
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 nuestroServicio">
-            <h4>Nuestros Servicios</h4>
-            <ul>
-              <li>
-                <p>Jardineria general</p>
-              </li>
-              <li>
-                <p><img src="imagenes/hoja (1).png" alt="hoja">Paisajismo.</p>
-              </li>
-              <li>
-                <p><img src="imagenes/hoja (1).png" alt="hoja">Poda de arboles.</p>
-              </li>
-              <li>
-                <p><img src="imagenes/hoja (1).png" alt="hoja">Plantas frutales de estacion</p>
-              </li>
-              <li>
-                <p><img src="imagenes/hoja (1).png" alt="hoja">Huerta orgánica</p>
-              </li>
-              <li>
-                <p><img src="imagenes/hoja (1).png" alt="hoja">Y cualquier inquietud que tengas sobre tu sistema de riego
-                </p>
-              </li>
-            </ul>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <h4>Nosotros</h4>
-            <p>
-              Somos una empresa cordobesa. Contamos con un
-              equipo de profesionales, con el fin de brindarles a
-              nuestros clientes, un producto de calidad y el
-              asesoramiento adecuado. Poseemos gran
-              variedad de servicio, puedes hacer tu consulta!
-            </p>
-          </div>
-        </div>
-      </section>
-    </div>
-    <footer>
-      <div class="container"><div>
-    </footer>
-  </body>
-   
-</section>
+  <footer>
+    <div class="container">
+      <div>
+  </footer>
+</body>
 
 </html>

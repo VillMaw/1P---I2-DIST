@@ -1,19 +1,28 @@
 * {
     margin: 0;
     padding: 0;
+    bottom: none;
+    box-sizing: border-box;
+    border: none;
 }
 
-#Principal{
-    display: flex; 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
     border: 2px solid red;
-    margin: 10px auto;
-    max-width: 1280px 1276px;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
 }
 
 #Main{
     border: 2px solid green;
     flex-grow: 1;
-    margin: 20px;
+    /* margin: 20px; */
 }
 #Pagina {
     display: flex;
@@ -28,11 +37,26 @@
     margin: 5px 5px;  
 }
 
+.ecotree{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid red;
+    background-color: rgba(233, 231, 231, 0.664);
+    border-radius: .75rem;
+    height: 200px;
+    width: 25%;
+    padding: 0 0 0 0.5rem;
+}
+
 .encabezado{
+    display: flex;
     align-items:center;
+    justify-content: space-between;
     border: 2px solid black;
-    margin-left: 200px;
-    margin-right: 200px;
+    /* margin-left: 200px;
+    margin-right: 200px; */
 }
 
 
@@ -45,44 +69,67 @@ body {
     border: 2px solid yellow;
 }
 
-
-.Jardin{
-    width: 450px;
-    height: 200px;
+.jardin{
+    border: 2px solid blueviolet;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    width: 50%;
 }
+
+.jardin img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: .75rem;
+}
+
 
 .menu {
-    flex-direction: row;
-    justify-content: end;
+    display: flex;
+    flex-direction: column;
+    width: 25%;    
+    padding: 1rem 2rem;
+    font-size: 1rem;
 }
 
-.menu{
-    align-items: end;
+.menu hr {
+    margin: 5px;
 }
+
+#contrabajos{
+    display:flex ;
+}
+
 .formulario{
+    padding: 0;
     text-align: start;
     border: 2px solid greenyellow;
-    margin-left: 235px;
-    margin-right: 0px;
+    /*margin-left: 235px;
+    margin-right: 0px;*/
     align-items:center;
 }
 
-.galeria img{
+/*.galeria img{
     background-color: white;
     padding: 5px 5px;
+}*/
+
+
+.galeria{
+    background-color: white;
+    align-items: center;
+    border: 2px solid blueviolet;
+    padding: 0px;
+    /*height: 500px;*/
+    /*margin-right: 150px;*/
 }
 
-
-
-.containergaleria{
-    border: 2px solid red;
-    display:flex;
-    margin-right: 150px;
-}
-
-.containergaleria img{
+.galeria img{
     padding: 5px 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
 
 .detalle {
@@ -98,6 +145,7 @@ body {
     background-color: rgb(205, 237, 255);
     text-align: start;
     padding: 30px 20px;
+    border: 2px solid blue;
 }
 
 
@@ -105,7 +153,7 @@ body {
     text-decoration: none;
 }
 
-ul li {
+li {
     text-decoration: none;
     list-style: none;
 }
@@ -143,7 +191,19 @@ footer {
 }
 */
 
+@media (max-width: 960px){
 
+}
+
+@media (max-width: 768px){
+
+}
+
+@media (max-width: 320px){
+    .header, .conten-section, .contenedor-grid{
+        flex-direction: column;
+    }
+}
 
 
 
