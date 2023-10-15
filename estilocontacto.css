@@ -4,6 +4,7 @@
     bottom: none;
     box-sizing: border-box;
     border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
@@ -12,17 +13,22 @@ body {
     align-items: center; 
     justify-content: center;
     border: 2px solid red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    text-justify: distribute;
+    text-align: start;
+    background-color: rgb(255, 255, 255);
 }
 
 a {
     text-decoration: none;
-    color: orange;
 }
+
+
 
 #Main{
     border: 2px solid green;
     flex-grow: 1;
-    /* margin: 20px; */
 }
 #Pagina {
     display: flex;
@@ -37,6 +43,14 @@ a {
     margin: 5px 5px;  
 }
 
+.encabezado {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;    
+    border: 2px solid black;
+}
+
 .ecotree{
     display: flex;
     align-items: center;
@@ -46,27 +60,26 @@ a {
     background-color: rgba(233, 231, 231, 0.664);
     border-radius: .75rem;
     height: 200px;
-    width: 25%;
+    width: 100%;
     padding: 0 0 0 0.5rem;
+    color: rgb(171, 171, 170);
 }
 
-.encabezado{
+.menu {
     display: flex;
-    align-items:center;
-    justify-content: space-between;
-    border: 2px solid black;
-    /* margin-left: 200px;
-    margin-right: 200px; */
+    flex-direction: column;
+    width: 100%;    
+    padding: 1rem 2rem;
+    font-size: 1rem;
 }
 
+.menu hr {
+    margin: 5px;
+}
 
-body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14px;
-    text-justify: distribute;
-    text-align: start;
-    background-color: rgb(255, 255, 255);
-    border: 2px solid yellow;
+.menu a {
+    text-decoration: none;
+    color: rgb(255, 145, 0);
 }
 
 .jardin{
@@ -74,7 +87,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 100%;
 }
 
 .jardin img{
@@ -84,42 +97,19 @@ body {
     border-radius: .75rem;
 }
 
-
-.menu {
+.formulario {
     display: flex;
     flex-direction: column;
-    width: 25%;    
-    padding: 1rem 2rem;
-    font-size: 1rem;
-}
-
-.menu hr {
-    margin: 5px;
-}
-
-#contrabajos{
-    display:flex ;
-}
-
-.formulario{
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    text-align: start;
+    align-items: left;
+    padding: 0 2rem;
+    text-align: left;
     border: 2px solid greenyellow;
-    /*margin-left: 235px;
-    margin-right: 0px;*/
-    align-items:center;
+    gap: 1rem;
 }
 
 input, textarea {
-    width: 80%; 
+    width: 100%;    
 }
-
-/*.galeria img{
-    background-color: white;
-    padding: 5px 5px;
-}*/
 
 
 .galeria{
@@ -127,8 +117,7 @@ input, textarea {
     align-items: center;
     border: 2px solid blueviolet;
     padding: 0px;
-    /*height: 500px;*/
-    /*margin-right: 150px;*/
+    
 }
 
 .galeria img{
@@ -177,62 +166,62 @@ footer {
     color: rgb(51, 162, 206);
 }
 
-/*.conteiner {
-    display: flex;
-    text-align: start;
-    flex-direction: column-reverse;
-}*/
+/* Estilos para pantallas de 769px a 960px */
+@media screen and (min-width: 768px) {
+    .encabezado{
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        border: 2px solid black;
+    }
 
-/*body.conteiner {
-    display: flex;
-}*/
-
-/*.section div img {
-    width: 100%;
-    height: auto;
-    /*padding: 10%;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-}
-*/
-
-@media (max-width: 960px){
-
-}
-
-@media (max-width: 768px){
-
-}
-
-@media (max-width: 320px){
-    .header, .conten-section, .contenedor-grid{
+    .ecotree{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
+        border: 2px solid red;
+        background-color: rgba(233, 231, 231, 0.664);
+        border-radius: .75rem;
+        height: 200px;
+        width: 25%;
+        padding: 0 0 0 0.5rem;
+        color: rgb(171, 171, 170);
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        width: 25%;    
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+    
+    .menu hr {
+        margin: 5px;
+    }
+    
+    .menu a {
+        text-decoration: none;
+        color: rgb(255, 145, 0);
+    }
+
+    .jardin{
+        border: 2px solid blueviolet;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+    
+    .jardin img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: .75rem;
     }
 }
 
 
-
-/* Estilos para pantallas de 320px o menos */
-@media (max-width: 320px) {
-  /* Agrega tus estilos específicos para pantallas de 320px o menos aquí */
-}
-
-/* Estilos para pantallas de 321px a 768px */
-@media (min-width: 321px) and (max-width: 768px) {
-  /* Agrega tus estilos específicos para pantallas de 321px a 768px aquí */
-}
-
-/* Estilos para pantallas de 769px a 960px */
-@media (min-width: 769px) and (max-width: 960px) {
-  /* Agrega tus estilos específicos para pantallas de 769px a 960px aquí */
-}
-
-/* Estilos para pantallas más grandes de 960px */
-@media (min-width: 961px) {
-  /* Agrega tus estilos específicos para pantallas de 961px o más aquí */
-}
-
-/* Agrega cualquier otro estilo general que desees aquí */
 
 
