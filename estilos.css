@@ -127,7 +127,8 @@ form * {
 #decoracion {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    background-color: rgb(244, 244, 244);
+    gap: 1rem;
     text-align: justify;
     border: 2px solid rgb(36, 128, 8);
 }
