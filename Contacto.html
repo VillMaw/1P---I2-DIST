@@ -10,29 +10,43 @@
 <body>
     <!-- Seccion encabezado -->
     <section id="encabezado">
-        <div>
-          <img
-            title="Logo EcoTree"
-            src="./imagenes/templatemo_logo.png"
-            alt="Logo de la marca EcoTree"
-          />
-          <h2 class="titulo">EcoTree</h2>
-        </div>
-        <img src="./imagenes/jardin454.jpg" alt="" />
-        <img hidden src="./imagenes/templatemo_menu_hover.png" alt="" />
-        <ul>
-          <li><a href="./index.html">Inicio</a></li>
-          <li><a href="#">Nosotros</a></li>
-          <li><a href="#">Galeria</a></li>
-          <li><a href="#">Servicio</a></li>
-          <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-      </section>
+      <div id="ecoTree">
+        <img title="Logo EcoTree" src="./imagenes/templatemo_logo.png" alt="Logo de la marca EcoTree" id="logoEco" />
+        <h2>EcoTree</h2>
+      </div>
+      <img src="./imagenes/decorarja.jpg" alt="" id="jardin" />    
+      <ul>
+        <li>
+          <a href="#"><img src="./imagenes/home.png" alt="Inicio"/> Inicio</a>
+          <hr>
+        </li>
+        <li>
+          <a href="#"><img src="./imagenes/my-account.png"
+            alt="Nosotros"/> Nosotros</a>
+          <hr>
+        </li>
+        <li>
+          <a href="#"><img src="./imagenes/my-account.png"
+            alt="Nosotros"/> Galeria</a>
+          <hr>
+        </li>
+        <li>
+          <a href="#"><img src="./imagenes/special-offer.png"
+            alt="Servicios"/> Servicio</a>
+          <hr>
+        </li>
+        <li>
+          <a href="./contacto.html"><img src="./imagenes/email.png"
+          alt="Contacto"/> Contacto</a>
+          <hr>
+        </li>
+      </ul>
+    </section>
 
       <!-- Seccion contacto -->
-      <section>
-        <div>
-            <h2>Contacto</h2>
+      <section id="contacto">
+        <div id="formulario">
+          <h2>Contacto</h2>
           <p>Envia tu mensaje</p>
           <form action="procesar_formulario.php" method="POST">
             <label for="nombre">Nombre:</label>
@@ -46,7 +60,7 @@
             <input type="submit" value="Enviar">
           </form>
         </div>
-        <div>
+        <div id="galeria">
             <h2>Nuestros Trabajos, clientes contentos!</h2>
             <article>
                 <img src="./imagenes/1.jpg" alt="">
@@ -54,7 +68,7 @@
                 <img src="./imagenes/4.jpg" alt="">
                 <img src="./imagenes/5.jpg" alt="">
                 <img src="./imagenes/6.jpg" alt="">
-                <img src="./imagenes/7.jpg" alt="">
+                <img src="./imagenes/7.jpg" alt="">guille puto
             </article>
         </div>
       </section>
