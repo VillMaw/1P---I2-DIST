@@ -42,18 +42,20 @@ form * {
     background-color: transparent;
 }
 
-
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 1rem;
+}
 
 /* Página principal Eco Tree */
 
 /* Seccion encabezado */
 #encabezado {
-    display: flex;
-    flex-direction: column;
-    align-content: stretch;
-    gap: 1rem;
     width: 100%;
-    height: 240px;
+    height: 100%;
     border: 2px solid blue;
 }
 
@@ -61,16 +63,21 @@ form * {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: rgb(244, 244, 244);
     border-radius: .75rem;
-    height: 236px;
+    height: 100%;
 }
 
 #jardin {
     border-radius: .5rem 0 0 .5rem;
-    width: 85%;
+    width: 100%;
+    border-radius: 0.5rem;
     height: 230px; 
+}
+
+#flechita {
+    display: none;
 }
 
 #encabezado ul {
@@ -88,12 +95,10 @@ form * {
 #encabezado ul a {
     color: orange;
     padding: .5rem;
-    border: 2px solid orange;
 }
 #encabezado ul hr {
     border: 1px solid rgb(244, 244, 244);
     box-shadow: 1px 1px rgb(175, 175, 175);
-    border-radius: 1px;
 }
 
 /* Seccion informacion */
@@ -105,7 +110,7 @@ form * {
     padding: .5rem;
     background: linear-gradient(rgb(221,241,251), rgb(180, 223, 248));
     border-radius: .5rem;
-    height: 150px;
+    height: 100%;
     border: 2px solid black;
 }
 
@@ -114,10 +119,14 @@ form * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+#informacion img {
+    display: none;
+}
+
 /* Seccion decoracion */
 #decoracion {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
     text-align: justify;
     border: 2px solid rgb(36, 128, 8);
@@ -138,25 +147,31 @@ form * {
     
     /* Seccion pagina principal */
     #encabezado {
-        display: grid;
-        gap: 1rem;
-        grid-template-columns: 1fr 2fr 1fr;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
         width: 100%;
         height: 240px;
     }
 
-    
+    #ecoTree {
+        width: 20%;
+    }
 
     #flechita {
-        
+        width: 10px;
+        height: 10px;
     }
 
     #jardin {
         height: 236px;
+        width: 50%;
     }
 
     #encabezado ul {
         height: 100%;
+        width: 25%;
     }
 
     #informacion {
