@@ -431,12 +431,12 @@ textarea {
   }
 
   #ideas p {
-    top: 0;
+    top: .75rem;
     padding: 0 1rem;
   }
 
   #ideas img {
-    height: 18rem;
+    height: 20rem;
   }
 
   /* Seccion recomendacion */
@@ -521,8 +521,7 @@ textarea {
 
   /* Seccion decoracion */
   #ideas p {
-    top: 2em;
+    top: 3rem;
   }
-
 
 }
