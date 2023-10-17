@@ -175,6 +175,9 @@ form * {
     width: 60px;
 }
 
+#decoracion h2{
+    font-size: x-large;
+}
 
 #ideas {    
     position: relative;    
