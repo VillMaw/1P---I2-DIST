@@ -426,6 +426,10 @@ textarea {
     padding: 2.5rem 0 0 0;
   }
 
+  #ideas {
+    justify-content: space-between;
+  }
+
   #ideas p {
     top: 0;
     padding: 0 1rem;
