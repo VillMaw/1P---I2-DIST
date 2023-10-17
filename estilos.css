@@ -4,6 +4,7 @@
     padding: 0;
     bottom: none;
     box-sizing: border-box;
+    border: none;
 }
 
 body {
@@ -230,6 +231,8 @@ footer img{
     width: 100%;
     gap: 1rem;
     padding: 1rem;
+    background-color: rgb(244, 244, 244);
+    border-radius: .5rem;
 }
 
 #formulario {
@@ -397,10 +400,39 @@ textarea {
     }
 
     /* Seccion pagina contacto */
+    #contacto {
+        display:flex;
+        flex-direction: row;
+        padding: 1rem 1rem 3rem 1rem;    
+    }
 
-    
+    #formulario {
+        width: 30%;
+    }
 
+    #formulario form {
+        height: 100%;
+        border-radius: 0;
+    }
 
+    #galeria {
+        width: 70%;
+    }
+
+    #galeria h2 {
+        margin-top: 2rem;
+    }
+
+    #galeria article {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 1rem 2rem;
+        background-color: rgb(255, 255, 255);
+    }
+    #galeria img {        
+        width: 47%;
+    }
 }
 
 @media only screen and (min-width:1024px) {
