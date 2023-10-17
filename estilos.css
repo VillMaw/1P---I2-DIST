@@ -99,7 +99,7 @@ form * {
     background-color: rgb(231, 231, 231);
     border-radius: .5rem;
     height: 236px;
-    border: 2px solid orange;
+    
 }
 
 #encabezado ul a {
@@ -488,8 +488,5 @@ textarea {
     #ideas p{
         top: 2em
     }
-
-    /* Seccion pagina contacto */
-
     
 }
