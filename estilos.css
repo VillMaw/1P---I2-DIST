@@ -519,4 +519,8 @@ textarea {
   #ideas p {
     top: 2em;
   }
+
+  #ideas img {
+    height: 150%;
+  }
 }
