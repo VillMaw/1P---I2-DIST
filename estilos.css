@@ -100,7 +100,6 @@ form * {
     background-color: rgb(231, 231, 231);
     border-radius: .5rem;
     height: 236px;
-    border: 2px solid orange;
 }
 
 #encabezado ul a {
@@ -122,7 +121,6 @@ form * {
     background: linear-gradient(rgb(221,241,251), rgb(180, 223, 248));
     border-radius: .5rem;
     height: 100%;
-    border: 2px solid black;
 }
 
 #informacion h2 {
@@ -145,7 +143,6 @@ form * {
     background-color: rgb(244,244,244);
     gap: 1rem;
     text-align: justify;
-    border: 2px solid rgb(36, 128, 8);
     position: relative;
     height: 100%;
 }
