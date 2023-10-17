@@ -291,6 +291,9 @@ textarea {
     width: calc(100%/3);
     padding: 0 2rem;
     gap: 1rem;
+    background-color: rgb(221,241,251);
+    padding: 1rem ;
+    border-radius: .5rem;
 }
 
 #redes {
