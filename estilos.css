@@ -170,6 +170,13 @@ form * {
     padding: 1rem;
 }
 
+/* Seccion recomendaciones */
+#recomendaciones {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 /* Media query */
 @media only screen and (min-width:425px) {
     
