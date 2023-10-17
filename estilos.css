@@ -341,6 +341,10 @@ textarea {
 @media only screen and (min-width:768px) {
     
     /* Seccion pagina principal */
+
+    body {
+        margin: 1rem 5rem;
+    }
     
     /* Seccion encabezado */
     #encabezado {
