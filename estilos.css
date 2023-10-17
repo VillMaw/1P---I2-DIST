@@ -280,6 +280,9 @@ textarea {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    background-color: rgb(221,241,251);
+    padding: 1rem ;
+    border-radius: .5rem;
 }
 
 #redes {
