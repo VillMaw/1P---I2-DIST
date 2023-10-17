@@ -1,128 +1,131 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./imagenes/templatemo_logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="./estilos.css">
-    <title>Contacto</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./imagenes/templatemo_logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="./estilos.css">
+  <title>Contacto</title>
 </head>
+
 <body>
-    <!-- Seccion encabezado -->
-    <section id="encabezado">
-      <div id="ecoTree">
-        <img title="Logo EcoTree" src="./imagenes/templatemo_logo.png" alt="Logo de la marca EcoTree" id="logoEco" />
-        <h2>EcoTree</h2>
-      </div>
-      <img src="./imagenes/decorarja.jpg" alt="" id="jardin" />    
+  <!-- Seccion encabezado -->
+  <section id="encabezado">
+    <div id="ecoTree">
+      <img title="Logo EcoTree" src="./imagenes/templatemo_logo.png" alt="Logo de la marca EcoTree" id="logoEco" />
+      <h2>EcoTree</h2>
+    </div>
+    <img src="./imagenes/decorarja.jpg" alt="" id="jardin" />
+    <ul>
+      <li>
+        <a href="#"><img src="./imagenes/home.png" alt="Inicio" /> Inicio</a>
+        <hr>
+      </li>
+      <li>
+        <a href="#"><img src="./imagenes/my-account.png" alt="Nosotros" /> Nosotros</a>
+        <hr>
+      </li>
+      <li>
+        <a href="#"><img src="./imagenes/my-account.png" alt="Nosotros" /> Galeria</a>
+        <hr>
+      </li>
+      <li>
+        <a href="#"><img src="./imagenes/special-offer.png" alt="Servicios" /> Servicio</a>
+        <hr>
+      </li>
+      <li>
+        <a href="./contacto.html"><img src="./imagenes/email.png" alt="Contacto" /> Contacto</a>
+        <hr>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Seccion contacto -->
+  <section id="contacto">
+    <div id="formulario">
+      <h2>Contacto</h2>
+      <p>Envia tu mensaje</p>
+      <form action="procesar_formulario.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto" required><br><br>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+    <div id="galeria">
+      <h2>Nuestros Trabajos, clientes contentos!</h2>
+      <article>
+        <img src="./imagenes/1.jpg" alt="">
+        <img src="./imagenes/22.jpg" alt="">
+        <img src="./imagenes/4.jpg" alt="">
+        <img src="./imagenes/5.jpg" alt="">
+        <img src="./imagenes/6.jpg" alt="">
+        <img src="./imagenes/7.jpg" alt="">
+      </article>
+    </div>
+  </section>
+
+  <!-- Seccion nosotros -->
+  <section id="nosotros">
+
+    <!-- Redes sociales -->
+    <div id="redes">
+      <h2>Nos puedes encontrar en:</h2>
+      <ul>
+        <li><img src="./imagenes/facebook.png" alt=""><a href="">Facebook</a></li>
+        <li><img src="./imagenes/twitter2.png" alt=""><a href="">Twitter</a></li>
+        <li><img src="./imagenes/youtube.png" alt=""><a href="">Youtube</a></li>
+      </ul>
+    </div>
+
+    <!-- Servicios -->
+    <div id="servicios">
+      <h2>Nuestros Servicios</h2>
       <ul>
         <li>
-          <a href="#"><img src="./imagenes/home.png" alt="Inicio"/> Inicio</a>
-          <hr>
+          <p>Jardineria general</p>
         </li>
         <li>
-          <a href="#"><img src="./imagenes/my-account.png"
-            alt="Nosotros"/> Nosotros</a>
-          <hr>
+          <p><img src="./imagenes/hoja (1).png" alt="hoja">Paisajismo.</p>
         </li>
         <li>
-          <a href="#"><img src="./imagenes/my-account.png"
-            alt="Nosotros"/> Galeria</a>
-          <hr>
+          <p><img src="./imagenes/hoja (1).png" alt="hoja">Poda de arboles.</p>
         </li>
         <li>
-          <a href="#"><img src="./imagenes/special-offer.png"
-            alt="Servicios"/> Servicio</a>
-          <hr>
+          <p><img src="./imagenes/hoja (1).png" alt="hoja">Plantas frutales de estacion</p>
         </li>
         <li>
-          <a href="./contacto.html"><img src="./imagenes/email.png"
-          alt="Contacto"/> Contacto</a>
-          <hr>
+          <p><img src="./imagenes/hoja (1).png" alt="hoja">Huerta orgánica</p>
+        </li>
+        <li>
+          <p><img src="./imagenes/hoja (1).png" alt="hoja">Y cualquier inquietud que tengas sobre tu sistema de riego
+          </p>
         </li>
       </ul>
-    </section>
+    </div>
 
-      <!-- Seccion contacto -->
-      <section id="contacto">
-        <div id="formulario">
-          <h2>Contacto</h2>
-          <p>Envia tu mensaje</p>
-          <form action="procesar_formulario.php" method="POST">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required><br><br>
-            <label for="correo">Correo electrónico:</label>
-            <input type="email" id="correo" name="correo" required><br><br>
-            <label for="asunto">Asunto:</label>
-            <input type="text" id="asunto" name="asunto" required><br><br>
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
-            <input type="submit" value="Enviar">
-          </form>
-        </div>
-        <div id="galeria">
-            <h2>Nuestros Trabajos, clientes contentos!</h2>
-            <article>
-                <img src="./imagenes/1.jpg" alt="">
-                <img src="./imagenes/22.jpg" alt="">
-                <img src="./imagenes/4.jpg" alt="">
-                <img src="./imagenes/5.jpg" alt="">
-                <img src="./imagenes/6.jpg" alt="">
-                <img src="./imagenes/7.jpg" alt="">
-            </article>
-        </div>
-      </section>
-
-      <!-- Seccion nosotros -->
-      <section id="nosotros">
-
-        <!-- Redes sociales -->
-        <div id="redes">
-            <h2>Nos puedes encontrar en:</h2>
-            <ul>
-                <li><a href="">Facebook</a></li>
-                <li><a href="">Twitter</a></li>
-                <li><a href="">Youtube</a></li>
-            </ul>
-        </div>
-
-        <!-- Servicios -->
-        <div id="servicios">
-            <h2>Nuestros Servicios</h2>
-            <ul>
-                <li>
-                  <p>Jardineria general</p>
-                </li>
-                <li>
-                  <p><img src="imagenes/hoja (1).png" alt="hoja">Paisajismo.</p>
-                </li>
-                <li>
-                  <p><img src="imagenes/hoja (1).png" alt="hoja">Poda de arboles.</p>
-                </li>
-                <li>
-                  <p><img src="imagenes/hoja (1).png" alt="hoja">Plantas frutales de estacion</p>
-                </li>
-                <li>
-                  <p><img src="imagenes/hoja (1).png" alt="hoja">Huerta orgánica</p>
-                </li>
-                <li>
-                  <p><img src="imagenes/hoja (1).png" alt="hoja">Y cualquier inquietud que tengas sobre tu sistema de riego
-                  </p>
-                </li>
-              </ul>
-        </div>
-
-        <!-- Nosotros -->
-        <div>
-            <h2>Nosotros</h2>
-            <p>
-                Somos una empresa cordobesa. Contamos con un
-                equipo de profesionales, con el fin de brindarles a
-                nuestros clientes, un producto de calidad y el
-                asesoramiento adecuado. Poseemos gran
-                variedad de servicio, puedes hacer tu consulta!
-            </p>
-        </div>
-      </section>
+    <!-- Nosotros -->
+    <div>
+      <h2>Nosotros</h2>
+      <p>
+        Somos una empresa cordobesa. Contamos con un
+        equipo de profesionales, con el fin de brindarles a
+        nuestros clientes, un producto de calidad y el
+        asesoramiento adecuado. Poseemos gran
+        variedad de servicio, puedes hacer tu consulta!
+      </p>
+    </div>
+  </section>
+  <!-- Seccion pie de pagina -->
+  <footer>
+    <img src="./imagenes/templatemo_footer.jpg" alt="">
+  </footer>
 </body>
+
 </html>

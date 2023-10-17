@@ -50,6 +50,15 @@ form * {
     gap: 1rem;
 }
 
+/* Seccion Pie de Pagina */
+
+footer {
+    width: 100%;
+}
+footer img{
+    width: 100%;
+}
+
 /* Página principal Eco Tree */
 
 /* Seccion encabezado */
@@ -329,3 +338,4 @@ form * {
 #nosotros img{
 
 }
+
