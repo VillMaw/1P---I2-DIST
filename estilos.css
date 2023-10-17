@@ -175,10 +175,6 @@ form * {
     width: 60px;
 }
 
-#decoracion h2{
-    font-size: x-large;
-}
-
 #ideas {    
     position: relative;    
 }
@@ -417,15 +413,23 @@ textarea {
     }
 
     #decoracion article {
-        width: 27%;
+        width: 26%;
     }
 
+    #decoracion h2{
+        font-size: x-large;
+    }
+   
     #ideas p {
         top: 0;
         padding: 0 1rem;
     }
 
-    /* Seccion decoracion */
+    #parrafo {
+        padding: 3rem 0;
+    }
+    
+    /* Seccion recomendacion */
 
     #recomendaciones {
         display: flex;
