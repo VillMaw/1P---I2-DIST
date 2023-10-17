@@ -431,6 +431,10 @@ textarea {
     padding: 0 1rem;
   }
 
+  #ideas img {
+    height: 300%;
+  }
+
   /* Seccion recomendacion */
 
   #recomendaciones {
@@ -507,6 +511,8 @@ textarea {
   #flechita img {
     width: 30px;
     height: 20px;
+    -webkit-filter: grayscale(1);
+  filter: grayscale(1);
   }
 
   /* Seccion decoracion */
