@@ -251,10 +251,12 @@ footer img{
 
 #formulario input {
     height: 25px;
+    border: 1px solid rgb(175, 175, 175);
 }
 
 textarea {
     resize: vertical;
+    border: 1px solid rgb(175, 175, 175);
 }
 
 #enviar {
