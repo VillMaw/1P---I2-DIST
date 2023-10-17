@@ -221,7 +221,78 @@ form * {
     }
 
     /* Seccion pagina contacto */
+
+    #formulario {
+        width: px;
+    }
+
+
 }
+
+@media only screen and (max-width:320px) {
+    
+    /* Seccion pagina principal */
+    #encabezado {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 240px;
+    }
+
+    #ecoTree {
+        width: 100px;
+    }
+
+    #flechita {
+        width: 10px;
+        height: 10px;
+    }
+
+    #jardin {
+        height: 236px;
+        width: 50%;
+    }
+
+    #encabezado ul {
+        height: 100%;
+        width: 25%;
+    }
+
+    #informacion {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+
+    #informacion img {
+        visibility: visible;
+    }
+
+    /* Seccion pagina contacto */
+
+    #formulario {
+        width: 100%;
+    }
+
+    #contacto {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #galeria article{
+        display: grid;
+        flex-direction: column;
+        gap: .5rem;
+        grid-template-columns: repeat(auto-fill, minmax(14rem,1fr));
+        width: 100%;
+        border: 2px solid red;
+    }
+}
+
 
 /* Seccion pagina contacto */
 
@@ -234,6 +305,7 @@ form * {
 
 #galeria article{
     display: grid;
+    flex-direction: column;
     gap: .5rem;
     grid-template-columns: repeat(auto-fill, minmax(14rem,1fr));
     width: 100%;
@@ -248,4 +320,19 @@ form * {
 
 #nostros {
     border: 2px solid rgb(3, 3, 8);
+}
+
+
+/*Seccion Nostros*/
+
+#nosotros{
+    background-color: rgb(219, 239, 250);
+    border-radius: 25px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+#nosotros img{
+
 }
