@@ -436,7 +436,7 @@ textarea {
   }
 
   #ideas img {
-    height: 300%;
+    height: 18rem;
   }
 
   /* Seccion recomendacion */
@@ -524,7 +524,5 @@ textarea {
     top: 2em;
   }
 
-  #ideas img {
-    height: 150%;
-  }
+
 }
