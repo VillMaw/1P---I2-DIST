@@ -294,6 +294,7 @@ textarea {
     background-color: rgb(221,241,251);
     padding: 1rem ;
     border-radius: .5rem;
+    justify-content: space-between;
 }
 
 #redes {
