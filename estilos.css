@@ -433,6 +433,15 @@ textarea {
     #galeria img {        
         width: 47%;
     }
+
+    #nosotros {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nosotros div {
+        width: 30%;
+    }
 }
 
 @media only screen and (min-width:1024px) {
