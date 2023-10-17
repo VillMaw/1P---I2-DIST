@@ -65,10 +65,19 @@ form * {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: rgb(231, 231, 231);
     border-radius: .5rem;
     height: 100%;
+}
+
+#ecoTree img {
+    padding: 1rem 0;
+}
+
+#ecoTree h2 {
+    font-size: x-large;
+    color: rgb(175, 175, 175);
 }
 
 #jardin {
@@ -475,6 +484,12 @@ textarea {
     /* Seccion encabezado */
     #flechita {
         display: block;
+        background-color: rgb(244, 244, 244);
+        width: 30px;
+        height: 30px;
+        padding: .25rem;
+        border-radius: .5rem;
+        box-shadow: 1px 1px;
     }
     
     /* Seccion decoracion */
