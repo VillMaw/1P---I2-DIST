@@ -12,13 +12,16 @@ body {
     justify-content: flex-start;
     align-items: center;
     margin: 1rem;
-    gap: 1rem;
+    gap: .5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: 2px solid red;
+    font-size: 12px;
+    background-color: rgb(255, 255, 255);
 }
 
 h1,h2,h3,h4,h5,h6 {
     font-weight: 700;
+    color: rgb(74, 84, 90);
 }
 a {
     text-decoration: none;
@@ -26,7 +29,8 @@ a {
 }
 
 p, span {
-    font-weight: 300;
+    font-weight: 200;
+    color: rgb(133, 160, 175);
 }
 
 li {
@@ -49,10 +53,17 @@ form * {
     gap: 1rem;
 }
 
+/*.caja{
+    background-color: rgb(244, 244, 244);
+}
+
+
+
 /* Seccion Pie de Pagina */
 
 footer {
     width: 100%;
+
 }
 footer img{
     width: 100%;
@@ -72,8 +83,8 @@ footer img{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(244, 244, 244);
-    border-radius: .75rem;
+    background-color: rgb(231, 231, 231);
+    border-radius: .75rem solid rgb(0, 0, 0);
     height: 100%;
 }
 
@@ -94,7 +105,7 @@ footer img{
     justify-content: center;
     gap: .5rem;
     padding: 1rem;
-    background-color: rgb(244, 244, 244);
+    background-color: rgb(231, 231, 231);
     border-radius: .5rem;
     height: 236px;
     border: 2px solid orange;
@@ -184,6 +195,70 @@ footer img{
     flex-direction: column;
     gap: 1rem;
 }
+
+
+
+/* Seccion pagina contacto */
+
+/* Seccion contacto */
+
+#contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid green;
+    background-color: rgb(231, 231, 231);
+}
+
+#galeria article{
+    display: grid;
+    flex-direction: column;
+    gap: .5rem;
+    grid-template-columns: repeat(auto-fill, minmax(14rem,1fr));
+    width: 80%;
+    border: 2px solid red;
+}
+
+#galeria img {
+    width: 100%;
+    border: 2px solid purple;
+    height: 100%;
+}
+
+#galeria{
+    width: 75%;
+    
+}
+
+#formulario{
+    width: 22%;
+}
+
+/*Seccion Nostros*/
+
+#nosotros{
+    background-color: rgb(219, 239, 250);
+    border-radius: .5rem;
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+#nosotros div {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    width: calc(100%/3);
+    gap: 1rem;
+    
+}
+
+#nosotros p{
+    text-align: justify;
+}
+
+
 
 /* Media query */
 @media only screen and (min-width:425px) {
@@ -300,48 +375,3 @@ footer img{
         border: 2px solid red;
     }
 }
-
-
-/* Seccion pagina contacto */
-
-/* Seccion contacto */
-
-#contacto {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-
-#galeria article{
-    display: grid;
-    flex-direction: column;
-    gap: .5rem;
-    grid-template-columns: repeat(auto-fill, minmax(14rem,1fr));
-    width: 100%;
-    border: 2px solid red;
-}
-
-#galeria img {
-    width: 100%;
-    border: 2px solid purple;
-    height: 100%;
-}
-
-#nostros {
-    border: 2px solid rgb(3, 3, 8);
-}
-
-
-/*Seccion Nostros*/
-
-#nosotros{
-    background-color: rgb(219, 239, 250);
-    border-radius: 25px;
-    display: flex;
-    justify-content:space-around;
-    
-}
-
-#nosotros img{
-
-}
-
